@@ -42,7 +42,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'CoreMedia', 'UIKit', 'AVFoundation', 'AdSupport', 'StoreKit', 'CoreMotion', 'CoreLocation', 'CoreTelephony', 'MediaPlayer', 'SystemConfiguration'
   s.libraries = 'xml2'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.0'
-  s.dependency 'GoogleAds-IMA-iOS-SDK-For-AdMob', '~> 3.2.1'
 
 end
